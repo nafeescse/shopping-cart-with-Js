@@ -11,9 +11,11 @@ const Shop = () => {
         console.log(products);
     }, [])
     return (
+        
         <div className='shop bg-orange-200'>
+            
             <div className="products">
-                    <p className='text-4xl font-bolder'>All Products</p>
+                    
                    { products.map(product => <Products key={product.id} product={product}></Products>)
                 }
             </div>
