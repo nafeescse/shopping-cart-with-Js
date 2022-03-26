@@ -1,6 +1,4 @@
-# Welcome to First ever website made with React
-
-#PAIKART -- Trusted Grocery Platform In Sylhet.
+# PAIKART - Trusted Grocery Platform In Sylhet
 
 ## Live site link:
 
