@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './Cart.css';
 import Items from '../../components/Items/Items';
-import Random from '../../components/Random/Random'
+// import Random from '../../components/Random/Random'
 
 
 const Cart = (props) => {
     const {cart  } = props;
     
-    const  [newRandom, setNewRandom] = useState([]);
+    let newRandom;
 
     const handleRandom = (product) => {
         let randomArray = [];
@@ -21,7 +21,6 @@ const Cart = (props) => {
             // setRandom(newRandom);
             randomArray.push(newRandom);
             console.log(randomArray);
-            setNewRandom(randomArray);
         } else {
             newRandom = product[ran - 1];
             console.log(newRandom);
