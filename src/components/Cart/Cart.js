@@ -1,24 +1,14 @@
 import React, { useState } from 'react';
 import './Cart.css';
-import Items from '../../components/Items/Items'
+import Items from '../../components/Items/Items';
+import Random from '../../components/Random/Random'
+
 
 const Cart = (props) => {
     const {cart  } = props;
+    
+    const  [newRandom, setNewRandom] = useState([]);
 
-
-    // console.log('cart', cart);
-
-    // const {img2, name, price} = cart;
-    // let img = [];
-    // let name = '';
-    // for (const product of cart) {
-    //     // console.log(product);
-    //     // img.push(product);
-    //     // console.log(img);
-    //     // name = product.name;
-    // }
-
-    let newRandom;
     const handleRandom = (product) => {
         let randomArray = [];
         const len = product.length;
@@ -31,13 +21,15 @@ const Cart = (props) => {
             // setRandom(newRandom);
             randomArray.push(newRandom);
             console.log(randomArray);
+            setNewRandom(randomArray);
         } else {
             newRandom = product[ran - 1];
             console.log(newRandom);
             randomArray.push(newRandom);
-            console.log(randomArray);
+            console.log('Random Array;',randomArray);
             // setRandom(newRandom);
         }
+        return randomArray;
 
 
         ;
@@ -55,7 +47,10 @@ const Cart = (props) => {
             </div>
             <h3 className='cart-title text-2xl text-center text-'>Random Items:
             <div>
-            {/* {randomArray[0]} */}
+            {/* {
+                <Random
+                ></Random>
+            } */}
             </div>
             </h3>
         </div>
