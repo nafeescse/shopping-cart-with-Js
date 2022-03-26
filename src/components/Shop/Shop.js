@@ -45,9 +45,3 @@ const Shop = () => {
 };
 
 export default Shop;
-
-// const arr = [1,2,5,4,8];
-// const len = arr.length;
-// console.log(len);
-//     const ran = Math.floor(Math.random() * (len + 1));
-//     console.log(ran);

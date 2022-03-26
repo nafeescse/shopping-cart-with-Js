@@ -2,7 +2,7 @@ import React from 'react';
 import './Randdom.css'
 
 const Random = (props) => {
-    const {item, array } = props;
+    const {item,  } = props;
     console.log(item);
     return (
         // <div>Random</div>
@@ -17,5 +17,4 @@ const Random = (props) => {
         </div>
     );
 };
-
 export default Random;
