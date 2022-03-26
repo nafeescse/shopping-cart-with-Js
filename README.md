@@ -6,4 +6,4 @@
 
 ## Private Repository Link:
 
-[https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse](https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse)
+[https://phenomenal-cannoli-d5b5c2.netlify.app/](https://phenomenal-cannoli-d5b5c2.netlify.app/)
