@@ -1,0 +1,25 @@
+.cart{
+    height: 600px;
+    padding: 10px;
+    background-color: pink;
+    position: sticky;
+    top: 250px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.cart-title{
+    margin-bottom: 10px;
+}
+
+.btn-random{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+.btn-random button{
+    display: flex;
+    justify-content: center;
+}
