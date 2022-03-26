@@ -2,8 +2,8 @@
 
 ## Live site link:
 
-[http://localhost:3000](http://localhost:3000)
+[https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse](https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse)
 
 ## Private Repository Link:
 
-[http://localhost:3000](http://localhost:3000)
+[https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse](https://github.com/Programming-Hero-Web-Course4/lucky-one-nafeescse)
